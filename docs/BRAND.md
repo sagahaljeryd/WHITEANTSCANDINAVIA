@@ -2,9 +2,10 @@
 
 ## Status
 
-No approved brand kit, visual tokens, audience definition, claims library or tone-of-voice source is
-present in this repository. “SCANDINAVIA” in the name is not evidence of product origin,
-manufacturing location, materials or sustainability.
+WHITE ANT SCANDINAVIA is the clothing brand in the portfolio. No approved brand kit, visual tokens,
+audience definition, claims library or tone-of-voice source is present in this repository.
+“SCANDINAVIA” in the name is not evidence of product origin, manufacturing location, materials or
+sustainability.
 
 ## Required source pack
 

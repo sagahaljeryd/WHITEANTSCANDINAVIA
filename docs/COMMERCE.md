@@ -1,9 +1,13 @@
-# WHITE ANT SCANDINAVIA — Commerce Operations
+# WHITE ANT SCANDINAVIA — Clothing Commerce Operations
 
 ## Source of truth
 
 The exact verified WHITE ANT Shopify shop is authoritative for current catalog, variant, inventory,
 publication, media and order state unless a documented upstream product/asset system owns a field.
+
+Clothing attributes such as material composition, fit, measurements, colour, care, origin and
+sustainability evidence must be owned per product/SKU by an approved source. Never infer them from
+images, filenames or a similar style.
 
 ## Safe change flow
 

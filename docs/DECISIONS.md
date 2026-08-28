@@ -1,5 +1,11 @@
 # WHITE ANT SCANDINAVIA — Decision Log
 
+## D-007 — Active Shopify connector is another brand
+
+**Decision:** A read-only check on 2026-08-28 verified the active Shopify connector as Clarté Paris,
+not WHITE ANT. No WHITE ANT operation may use it until a deliberate shop switch is completed and
+read back as the exact WHITE ANT store.
+
 ## D-006 — Variant media requires stable mapping
 
 **Decision:** Use verified product/variant/media IDs, source mapping, dry-run and rollback. Filenames or

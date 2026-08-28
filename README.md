@@ -1,7 +1,7 @@
 # WHITE ANT SCANDINAVIA
 
 This repository is the project operations and future technical source-of-truth home for WHITE ANT
-SCANDINAVIA.
+SCANDINAVIA, a Shopify clothing brand associated with Maren Moerk AB.
 
 ## Current status
 
@@ -13,6 +13,7 @@ The baseline adds:
 - repository-wide contributor/AI rules;
 - verified-known versus unknown project context;
 - commerce, brand, content, connection and release guardrails;
+- approval-gated product, commerce, marketing and engineering workflows;
 - specialist working instructions, including Shopify variant-media safety.
 
 Start with `docs/MASTER_CONTEXT.md`. Do not run live work until the connected Shopify account proves

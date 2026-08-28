@@ -4,8 +4,8 @@ These instructions apply to every human or AI contributor in this repository.
 
 ## Mission
 
-Build a reliable commerce and project operations home for WHITE ANT SCANDINAVIA while protecting
-live Shopify state, customer data, financial evidence and brand integrity.
+Build a reliable commerce and project operations home for the WHITE ANT SCANDINAVIA clothing brand
+while protecting live Shopify state, customer data, financial evidence and brand integrity.
 
 ## Read before acting
 
@@ -15,11 +15,29 @@ Always read:
 - `docs/BRAND.md`
 - `docs/COMMERCE.md`
 - `docs/CONNECTIONS.md`
+- `docs/AUTOMATIONS.md`
+- `docs/DRIVE_STRUCTURE.md`
 - `docs/DECISIONS.md`
 - `docs/ROADMAP.md`
 
 Then read the relevant role in `agents/`. Read `docs/ARCHITECTURE.md` before adding themes, scripts,
 apps or automation.
+
+## Role routing
+
+- Product/catalog and range mapping: `agents/product-catalog-agent.md`
+- Shopify objects and shop configuration: `agents/shopify-agent.md`
+- Variant/media assignment: `agents/variant-media-agent.md`
+- Sourcing, stock flow and fulfilment: `agents/supply-chain-agent.md`
+- Brand/content: `agents/brand-content-agent.md`
+- Marketing, partnerships and channel planning: `agents/marketing-agent.md`
+- Search discovery: `agents/growth-seo-agent.md`
+- Storefront UX and conversion: `agents/ux-cro-agent.md`
+- Customer support: `agents/customer-experience-agent.md`
+- Margin/operations finance: `agents/finance-operations-agent.md`
+- Transaction evidence/bookkeeping: `agents/bookkeeping-agent.md`
+- Privacy/legal review: `agents/privacy-legal-agent.md`
+- Release verification: `agents/qa-release-agent.md`
 
 ## Source-of-truth order
 

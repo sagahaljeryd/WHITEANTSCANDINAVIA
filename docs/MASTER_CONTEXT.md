@@ -9,13 +9,14 @@ This is the primary operational context for the repository.
 - The GitHub repository existed but had no commits or files before this operations baseline.
 - No Shopify theme, storefront application, product feed, media map, automation or deployment
   configuration has been verified inside the repository.
-- Earlier project context identifies WHITE ANT SCANDINAVIA as a commerce brand associated with Maren
-  Moerk AB; the current legal/storefront identity must be verified from primary sources before public
-  or financial use.
+- WHITE ANT SCANDINAVIA is the clothing Shopify brand in the user's portfolio and is associated with
+  Maren Moerk AB; the current legal/storefront identity must still be verified from primary sources
+  before public or financial use.
 - A previous attempt to inspect a WHITE ANT product through a Shopify connection reached Clarté Paris
   instead. No WHITE ANT live mutation was made. This is a permanent target-verification lesson.
-- Brand kit, catalog ownership, asset library, domains, markets, analytics and accounting connections
-  are not yet mapped here.
+- Clothing category is project context, but materials, fit, measurements, origin, care,
+  sustainability claims, brand kit, catalog ownership, asset library, domains, markets, analytics and
+  accounting connections are not yet mapped here.
 
 ## Purpose of this repository
 
