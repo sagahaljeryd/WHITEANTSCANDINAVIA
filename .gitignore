@@ -1,0 +1,25 @@
+# Secrets and local environments
+.env
+.env.*
+!.env.example
+
+# Dependencies and builds
+node_modules/
+dist/
+.output/
+.cache/
+
+# Local tools
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Sensitive exports and temporary evidence
+exports/
+customer-data/
+order-data/
+*.csv
+*.xlsx
+*.zip
+!docs/inventories/*.csv
