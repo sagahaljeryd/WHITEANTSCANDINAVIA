@@ -8,22 +8,22 @@ currency where applicable and comparison period. Never treat missing data as zer
 
 ## Executive scorecard
 
-| Layer | KPI | Definition | Authoritative source | Current value |
-| --- | --- | --- | --- | --- |
-| Demand | Qualified sessions | Sessions in target markets after bot/internal filtering | Exact GA4/Shopify analytics property | **Ej anslutet** |
-| Demand | Product-view rate | Sessions with product view ÷ qualified sessions | Exact analytics property | **Ej anslutet** |
-| Intent | Add-to-cart rate | Sessions with add to cart ÷ qualified sessions | Exact analytics property | **Ej anslutet** |
-| Intent | Checkout-start rate | Sessions starting checkout ÷ qualified sessions | Shopify/analytics reconciliation | **Ej anslutet** |
-| Commercial | Conversion rate | Orders ÷ eligible online-store sessions; state platform definition | Exact WHITE ANT Shopify | **Ej anslutet** |
-| Commercial | Net sales | Gross sales − discounts − returns/refunds; tax and shipping shown separately | Exact WHITE ANT Shopify | **Ej anslutet** |
-| Commercial | Average order value | Net sales ÷ orders; state inclusion of tax/shipping | Exact WHITE ANT Shopify | **Ej anslutet** |
-| Product | Sell-through | Units sold ÷ units available for sale in the same cohort | Shopify plus approved inventory source | **Ej anslutet** |
-| Product | Product-data completeness | Active SKUs passing required fact/asset/variant checks ÷ active SKUs | Shopify plus approved product source | **Ej anslutet** |
-| Retention | Returning-customer rate | Returning customers ÷ customers in the period | Exact WHITE ANT Shopify | **Ej anslutet** |
-| CRM | Signup conversion | Valid consented signups ÷ eligible visitors | Klaviyo plus analytics | **Ej anslutet** |
-| Finance | Contribution margin | Net sales ex VAT + shipping income − COGS − fulfilment/shipping cost − payment/platform fees − attributable creator/ad cost | Shopify, accounting, payouts, bank | **Ej anslutet** |
-| Finance | Payout reconciliation gap | Expected payouts − bank receipts, by payout ID | Shopify Payments plus bank | **Ej anslutet** |
-| Finance | Estimated operating profit | Contribution margin − operating costs, labelled estimated until booked/reconciled | Fortnox plus bank reconciliation | **Ej anslutet** |
+| Layer      | KPI                        | Definition                                                                                                                  | Authoritative source                   | Current value   |
+| ---------- | -------------------------- | --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | --------------- |
+| Demand     | Qualified sessions         | Sessions in target markets after bot/internal filtering                                                                     | Exact GA4/Shopify analytics property   | **Ej anslutet** |
+| Demand     | Product-view rate          | Sessions with product view ÷ qualified sessions                                                                             | Exact analytics property               | **Ej anslutet** |
+| Intent     | Add-to-cart rate           | Sessions with add to cart ÷ qualified sessions                                                                              | Exact analytics property               | **Ej anslutet** |
+| Intent     | Checkout-start rate        | Sessions starting checkout ÷ qualified sessions                                                                             | Shopify/analytics reconciliation       | **Ej anslutet** |
+| Commercial | Conversion rate            | Orders ÷ eligible online-store sessions; state platform definition                                                          | Exact WHITE ANT Shopify                | **Ej anslutet** |
+| Commercial | Net sales                  | Gross sales − discounts − returns/refunds; tax and shipping shown separately                                                | Exact WHITE ANT Shopify                | **Ej anslutet** |
+| Commercial | Average order value        | Net sales ÷ orders; state inclusion of tax/shipping                                                                         | Exact WHITE ANT Shopify                | **Ej anslutet** |
+| Product    | Sell-through               | Units sold ÷ units available for sale in the same cohort                                                                    | Shopify plus approved inventory source | **Ej anslutet** |
+| Product    | Product-data completeness  | Active SKUs passing required fact/asset/variant checks ÷ active SKUs                                                        | Shopify plus approved product source   | **Ej anslutet** |
+| Retention  | Returning-customer rate    | Returning customers ÷ customers in the period                                                                               | Exact WHITE ANT Shopify                | **Ej anslutet** |
+| CRM        | Signup conversion          | Valid consented signups ÷ eligible visitors                                                                                 | Klaviyo plus analytics                 | **Ej anslutet** |
+| Finance    | Contribution margin        | Net sales ex VAT + shipping income − COGS − fulfilment/shipping cost − payment/platform fees − attributable creator/ad cost | Shopify, accounting, payouts, bank     | **Ej anslutet** |
+| Finance    | Payout reconciliation gap  | Expected payouts − bank receipts, by payout ID                                                                              | Shopify Payments plus bank             | **Ej anslutet** |
+| Finance    | Estimated operating profit | Contribution margin − operating costs, labelled estimated until booked/reconciled                                           | Fortnox plus bank reconciliation       | **Ej anslutet** |
 
 ## Required financial bridge
 
