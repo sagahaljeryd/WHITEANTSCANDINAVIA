@@ -7,10 +7,22 @@ These instructions apply to every human or AI contributor in this repository.
 Build a reliable commerce and project operations home for the WHITE ANT SCANDINAVIA clothing brand
 while protecting live Shopify state, customer data, financial evidence and brand integrity.
 
+## Project memory — mandatory
+
+Before any work, read `PROJECT_MEMORY/00_START_HERE.md` and the relevant files in
+`PROJECT_MEMORY/`. After work, update the memory only with verified and reusable state, decisions or
+learnings. Never store credentials, customer data, raw financial exports, speculation or full
+conversation transcripts in project memory.
+
 ## Read before acting
 
 Always read:
 
+- `PROJECT_MEMORY/00_START_HERE.md`
+- `PROJECT_MEMORY/GOALS.md`
+- `PROJECT_MEMORY/CURRENT_STATE.md`
+- `PROJECT_MEMORY/DECISIONS.md`
+- `PROJECT_MEMORY/LEARNINGS.md`
 - `docs/MASTER_CONTEXT.md`
 - `docs/BRAND.md`
 - `docs/COMMERCE.md`
@@ -98,7 +110,7 @@ WHITE ANT product is absent. Stop writes and verify the connection.
 Documentation changes must pass:
 
 ```sh
-npx prettier --check AGENTS.md README.md docs agents
+npx prettier --check AGENTS.md README.md docs agents PROJECT_MEMORY
 git diff --check
 ```
 
