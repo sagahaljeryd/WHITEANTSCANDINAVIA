@@ -43,3 +43,16 @@
 
 Connect the exact WHITE ANT Shopify shop in read-only mode, read back its identity and scopes, then
 run a redacted commerce audit without customer data or mutations.
+
+## Night pass delivered on 2026-08-29
+
+- Isolated branch: `codex/whiteant-project-memory-night-2026-08-29`.
+- Project memory and the mandatory read/update rule were added in commit
+  `70ff56952059ecea25cdefcedc6ec0f995750047`.
+- One roadmap improvement was added: `docs/READ_ONLY_COMMERCE_AUDIT_PLAN.md` in commit
+  `d5747bc8f0226f0eff4ae5210c30c43cdd811244`.
+- Verification passed: required files exist, `git diff --check` is clean, changed-file scope matches
+  the plan, and no credential pattern or Clarté domain/sales data was detected in the new files.
+- Prettier was unavailable in the repository; headings, links and tables were checked manually under
+  the documented fallback.
+- No pull request, merge, deployment, publication, Shopify mutation or external message was created.
