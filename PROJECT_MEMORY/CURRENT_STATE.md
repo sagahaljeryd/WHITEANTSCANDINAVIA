@@ -1,6 +1,6 @@
 # WHITE ANT SCANDINAVIA — Current State
 
-**Last verified:** 2026-08-29 UTC.
+**Last verified:** 2026-08-30 UTC.
 
 ## Repository
 
@@ -25,7 +25,9 @@
 ## Connection health
 
 - GitHub: Connected with verified repository admin/push access.
-- WHITE ANT Shopify Admin/API: `Ej anslutet`.
+- WHITE ANT Shopify custom app: visually verified as installed in `xbpcuj-5a.myshopify.com` with
+  selected read permissions; credential-backed API identity and scope read-back are not verified.
+- WHITE ANT Shopify Admin/API: `Ej anslutet` until the API preflight succeeds.
 - Product/asset library and project Drive: `Ej anslutet`.
 - Theme source/deployment: `Ej anslutet`.
 - Accounting, bank and payouts: `Ej anslutet`.
@@ -35,7 +37,8 @@
 ## Active blockers
 
 1. The available Shopify connector is Clarté Paris and is blocked for all WHITE ANT work.
-2. The exact project-owned WHITE ANT Shopify Admin path is not connected.
+2. The project-owned WHITE ANT app is installed, but its Client ID and Client Secret have not been
+   supplied to a local secret environment and the API identity has not been read back.
 3. The approved product/asset source and project Drive root are not connected.
 4. Commerce, finance and analytics KPI values cannot be reported from public storefront metadata.
 
@@ -43,6 +46,17 @@
 
 Connect the exact WHITE ANT Shopify shop in read-only mode, read back its identity and scopes, then
 run a redacted commerce audit without customer data or mutations.
+
+## Identity-only MCP staged on 2026-08-30
+
+- Commit `6eb02568d396dbab265849700caa6182cf8f6fa1` adds a local STDIO MCP with the single tool
+  `verify_white_ant_connection`.
+- It allowlists only `xbpcuj-5a.myshopify.com`, reads shop identity and installed scopes, rejects
+  every `write_` scope and exposes no generic Shopify query or mutation.
+- Seven synthetic tests pass, including wrong-shop rejection, write-scope rejection, secret-safe
+  errors and an end-to-end STDIO tool-list handshake.
+- No live Shopify request was made. Final connection remains blocked only on local secret entry and
+  a successful read-back from the exact WHITE ANT installation.
 
 ## Night pass delivered on 2026-08-29
 

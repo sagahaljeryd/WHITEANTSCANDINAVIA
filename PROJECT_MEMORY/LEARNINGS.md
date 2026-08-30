@@ -1,6 +1,6 @@
 # WHITE ANT SCANDINAVIA — Reusable Learnings
 
-**Last verified:** 2026-08-29 UTC.
+**Last verified:** 2026-08-30 UTC.
 
 ## L-001 — An active connector can target the wrong brand
 
@@ -30,3 +30,10 @@ rollback are required.
 A branch with redacted documentation and isolated plans can advance readiness without changing the
 live storefront. Branch creation or commits do not authorize a pull request, merge, deployment or
 publication.
+
+## L-006 — App installation is not connection proof
+
+An app shown as installed in the correct Shopify Admin is necessary but does not prove API identity
+or effective scopes. Keep Admin/API status as `Ej anslutet` until an authenticated request reads back
+the exact `myshopifyDomain` and installed scopes. Shopify's development MCP is documentation tooling,
+not a substitute for this store-level verification.

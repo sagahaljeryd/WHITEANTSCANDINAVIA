@@ -1,6 +1,6 @@
 # WHITE ANT SCANDINAVIA — Durable Decisions
 
-**Last verified:** 2026-08-29 UTC.
+**Last verified:** 2026-08-30 UTC.
 
 The detailed canonical decision log remains `docs/DECISIONS.md`. This file records the compact
 cross-task rules future work must carry forward.
@@ -37,3 +37,9 @@ exports. Use stable object IDs, redacted evidence and synthetic fixtures.
 Future work reads `PROJECT_MEMORY/00_START_HERE.md` and relevant memory files before acting, then
 updates verified reusable state, decisions or learnings after the work. Full conversations and
 speculation are excluded.
+
+## M-007 — Shopify connection starts with an identity-only gate
+
+The first project-owned Shopify MCP exposes only `verify_white_ant_connection`. It must fail unless
+Shopify returns `xbpcuj-5a.myshopify.com` and every installed scope is read-only. Catalog tools stay
+out of scope until this preflight has succeeded with redacted evidence.
